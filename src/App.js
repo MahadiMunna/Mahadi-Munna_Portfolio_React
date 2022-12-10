@@ -1,10 +1,11 @@
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import Navbar from './Pages/Navbar/Navbar';
+import router from './Routes/Routes';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar></Navbar>
+    <div className='max-w-screen-lg mx-auto'>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
