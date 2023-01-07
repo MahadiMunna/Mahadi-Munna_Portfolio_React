@@ -20,11 +20,6 @@ const ParticleBackground = () => {
         init={particlesInit}
         loaded={particlesLoaded}
         options={{
-            background: {
-                color: {
-                    value: "#ffffff",
-                },
-            },
             fpsLimit: 120,
             interactivity: {
                 events: {
@@ -33,7 +28,7 @@ const ParticleBackground = () => {
                         mode: "push",
                     },
                     onHover: {
-                        enable: false,
+                        enable: true,
                         mode: "repulse",
                     },
                     resize: true,

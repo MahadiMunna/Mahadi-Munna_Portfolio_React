@@ -6,6 +6,7 @@ import ParticleBackground from './components/ParticleBackground/ParticleBackgrou
 function App() {
   return (
     <div>
+      <ParticleBackground></ParticleBackground>
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
