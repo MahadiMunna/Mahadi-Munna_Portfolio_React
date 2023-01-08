@@ -11,7 +11,7 @@ import {FaGithubSquare, FaLinkedin, FaFacebookSquare, FaWhatsappSquare} from 're
 
 const Banner = () => {
     return (
-        <div className='parent grid grid-cols-1 justify-items-center items-center p-10 '>
+        <div id='home' className='parent grid grid-cols-1 justify-items-center items-center p-10 '>
             <div data-aos="zoom-in-down" data-aos-duration="1500">
                 <PhotoProvider>
                     <PhotoView src={img}>
