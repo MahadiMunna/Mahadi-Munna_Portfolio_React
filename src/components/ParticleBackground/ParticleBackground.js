@@ -28,7 +28,7 @@ const ParticleBackground = () => {
                         mode: "push",
                     },
                     onHover: {
-                        enable: true,
+                        enable: false,
                         mode: "repulse",
                     },
                     resize: true,
@@ -63,8 +63,8 @@ const ParticleBackground = () => {
                     outModes: {
                         default: "bounce",
                     },
-                    random: true,
-                    speed: 1,
+                    random: false,
+                    speed: 2,
                     straight: false,
                 },
                 number: {
@@ -72,13 +72,13 @@ const ParticleBackground = () => {
                         enable: true,
                         area: 800,
                     },
-                    value: 50,
+                    value: 60,
                 },
                 opacity: {
-                    value: 0.5,
+                    value: 1,
                 },
                 shape: {
-                    type: "circle",
+                    type: "",
                 },
                 size: {
                     value: { min: 1, max: 5 },
