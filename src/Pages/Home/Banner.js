@@ -5,7 +5,7 @@ import img from '../../utilities/image/banner.jpeg';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import { FaFileDownload } from 'react-icons/fa';
 import { MdContactMail } from 'react-icons/md';
-import resume from '../../utilities/resume/Resume-Mahadi Hasan Munna.pdf';
+import resume from '../../utilities/resume/Resume - Mahadi Hasan Munna.pdf';
 import { motion } from 'framer-motion';
 import {FaGithubSquare, FaLinkedin, FaFacebookSquare, FaWhatsappSquare} from 'react-icons/fa';
 
