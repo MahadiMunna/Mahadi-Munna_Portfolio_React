@@ -71,7 +71,7 @@ const Banner = () => {
                         scale: 1.1,
                         boxShadow: "0px 0px 8px rgb(0,0,0,0.4)",
                     }}><FaFacebookSquare/></motion.a>
-                <motion.a style={{color:"#1BD741"}} href="https://www.facebook.com/mahedi.munna.77/" target='blank' className='text-3xl' whileHover={{
+                <motion.a style={{color:"#1BD741"}} href="https://api.whatsapp.com/qr/YX3HUHNFWVGLB1/" target='blank' className='text-3xl' whileHover={{
                         scale: 1.1,
                         boxShadow: "0px 0px 8px rgb(0,0,0,0.4)",
                     }}><FaWhatsappSquare/></motion.a>

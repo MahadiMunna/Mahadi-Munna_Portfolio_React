@@ -4,7 +4,7 @@
     align-items: center;
     gap: 0.8rem;
     position: fixed;
-    bottom: 10%;
+    bottom: 30%;
     left: 5px;
 }
 @media screen and (max-width:600px){

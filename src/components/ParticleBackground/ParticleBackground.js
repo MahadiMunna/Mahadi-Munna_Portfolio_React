@@ -20,7 +20,7 @@ const ParticleBackground = () => {
         init={particlesInit}
         loaded={particlesLoaded}
         options={{
-            fpsLimit: 120,
+            fpsLimit: 90,
             interactivity: {
                 events: {
                     onClick: {
@@ -28,7 +28,7 @@ const ParticleBackground = () => {
                         mode: "push",
                     },
                     onHover: {
-                        enable: false,
+                        enable: true,
                         mode: "repulse",
                     },
                     resize: true,
@@ -64,7 +64,7 @@ const ParticleBackground = () => {
                         default: "bounce",
                     },
                     random: false,
-                    speed: 2,
+                    speed: 1,
                     straight: false,
                 },
                 number: {
@@ -72,13 +72,13 @@ const ParticleBackground = () => {
                         enable: true,
                         area: 800,
                     },
-                    value: 60,
+                    value: 50,
                 },
                 opacity: {
                     value: 1,
                 },
                 shape: {
-                    type: "",
+                    type: "circle",
                 },
                 size: {
                     value: { min: 1, max: 5 },
