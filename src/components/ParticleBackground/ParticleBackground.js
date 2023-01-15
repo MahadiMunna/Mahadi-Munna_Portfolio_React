@@ -28,7 +28,7 @@ const ParticleBackground = () => {
                         mode: "push",
                     },
                     onHover: {
-                        enable: true,
+                        enable: false,
                         mode: "repulse",
                     },
                     resize: true,
@@ -50,7 +50,7 @@ const ParticleBackground = () => {
                 links: {
                     color: "#000000",
                     distance: 150,
-                    enable: true,
+                    enable: false,
                     opacity: 1,
                     width: 1,
                 },
@@ -64,7 +64,7 @@ const ParticleBackground = () => {
                         default: "bounce",
                     },
                     random: false,
-                    speed: 1,
+                    speed: 0.5,
                     straight: false,
                 },
                 number: {

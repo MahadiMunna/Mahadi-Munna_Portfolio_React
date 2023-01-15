@@ -67,29 +67,38 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <div style={{ width:"80vw", left: "50%", transform: "translate(-50%)" }} className="mt-10 grid grid-cols-1 md:grid-cols-3 justify-around justify-items-center gap-5">
-                <motion.div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" className='grid justify-center justify-items-center p-6 border border-b-4 border-cyan-500 shadow-2xl shadow-indigo-300 rounded-xl bg-indigo-100' whileHover={{
-                                        scale: 1.1
-                                    }}>
-                    <p><AiOutlineMail className='text-2xl text-red-600'/></p>
+
+            <div style={{ width: "80vw", left: "50%", transform: "translate(-50%)" }} className="mt-10 grid grid-cols-1 md:grid-cols-3 justify-around justify-items-center gap-5">
+
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                <motion.div  className='grid justify-center justify-items-center p-6 border border-b-4 border-red-500 shadow-xl shadow-red-200 rounded-xl bg-indigo-100'
+                    whileHover={{
+                        scale: 1.1    
+                    }}>
+                    <p><AiOutlineMail className='text-2xl text-red-600' /></p>
                     <h3 className='font-bold'>Email</h3>
-                    <a className='text-red-600 hover:text-blue-900' href="mailto:mahadimunna.official@gmail.com" target="blank">Send a message<FiSend className='ml-1 inline' /></a>
+                    <a className='text-red-600 hover:text-blue-900 font-semibold' href="mailto:mahadimunna.official@gmail.com" target="blank">Send message now!<FiSend className='ml-1 inline' /></a>
                 </motion.div>
-                <motion.div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" className='grid justify-center justify-items-center p-6 border border-b-4 border-cyan-500 shadow-2xl shadow-indigo-300 rounded-xl bg-indigo-100' whileHover={{
-                                        scale: 1.1
-                                    }}>
-                    <p><BsMessenger style={{color:"#006AFF"}} className='text-2xl'/></p>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <motion.div  className='grid justify-center justify-items-center p-6 border border-b-4 border-blue-500 shadow-xl shadow-blue-200 rounded-xl bg-indigo-100' whileHover={{
+                    scale: 1.1
+                }}>
+                    <p><BsMessenger style={{ color: "#006AFF" }} className='text-2xl' /></p>
                     <h3 className='font-bold'>Messenger</h3>
-                    <a className='text-blue-600 hover:text-blue-900' href="https://m.me/mahedi.munna.77" target="blank">Send a message<FiSend className='ml-1 inline' /></a>
+                    <a className='text-blue-600 hover:text-blue-900 font-semibold' href="https://m.me/mahedi.munna.77" target="blank">Send message now!<FiSend className='ml-1 inline' /></a>
                 </motion.div>
-                <motion.div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" className='grid justify-center justify-items-center p-6 border border-b-4 border-cyan-500 shadow-2xl shadow-indigo-300 rounded-xl bg-indigo-100' whileHover={{
-                                        scale: 1.1
-                                    }}>
-                    <p><BsWhatsapp className='text-2xl text-green-600'/></p>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                <motion.div  className='grid justify-center justify-items-center p-6 border border-b-4 border-green-500 shadow-xl shadow-green-200 rounded-xl bg-indigo-100' whileHover={{
+                    scale: 1.1
+                }}>
+                    <p><BsWhatsapp className='text-2xl text-green-600' /></p>
                     <h3 className='font-bold'>Whats App</h3>
-                    <a className='text-green-600 hover:text-blue-700' href="https://api.whatsapp.com/qr/YX3HUHNFWVGLB1" target="blank">Send a message<FiSend className='ml-1 inline' /></a>
+                    <a className='text-green-600 hover:text-blue-700 font-semibold' href="https://wa.me/qr/YX3HUHNFWVGLB1" target="blank">Send message now!<FiSend className='ml-1 inline' /></a>
                 </motion.div>
-                
+                </div>
+
             </div>
         </div>
     );

@@ -42,6 +42,8 @@ const Banner = () => {
                     />
                 </p>
             </div>
+
+
             <div className='my-5' data-aos="fade-up" data-aos-duration="1500">
                 <motion.a href={resume} download className='btn btn-outline shadow-2xl shadow-indigo-300 text-indigo-700 mr-3'
                     whileHover={{
@@ -58,7 +60,9 @@ const Banner = () => {
                     }}
                 >Contact<MdContactMail className='ml-1' /></motion.a>
             </div>
-            <div className='social sticky float-left'>
+
+
+            <div className='social'>
                 <motion.a href="https://github.com/MahadiMunna" target="blank" className='text-3xl' whileHover={{
                         scale: 1.1,
                         boxShadow: "0px 0px 8px rgb(0,0,0,0.4)",
@@ -71,7 +75,7 @@ const Banner = () => {
                         scale: 1.1,
                         boxShadow: "0px 0px 8px rgb(0,0,0,0.4)",
                     }}><FaFacebookSquare/></motion.a>
-                <motion.a style={{color:"#1BD741"}} href="https://api.whatsapp.com/qr/YX3HUHNFWVGLB1/" target='blank' className='text-3xl' whileHover={{
+                <motion.a style={{color:"#1BD741"}} href="https://wa.me/qr/YX3HUHNFWVGLB1" target='blank' className='text-3xl' whileHover={{
                         scale: 1.1,
                         boxShadow: "0px 0px 8px rgb(0,0,0,0.4)",
                     }}><FaWhatsappSquare/></motion.a>

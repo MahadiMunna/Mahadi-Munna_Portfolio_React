@@ -33,7 +33,7 @@ import vercel from '../../utilities/tech-logo/vercel.png'
 
 const Skills = () => {
     return (
-        <div className='my-10 '>
+        <div id='skills' className='my-10 '>
             <h1 data-aos="fade-up" data-aos-duration="1500"  className="text-4xl text-blue-600 font-bold text-center">Skills</h1>
 
             <div style={{ width: "70vw", left: "50%", transform: "translate(-50%)" }} className="mt-10">

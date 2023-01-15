@@ -7,7 +7,7 @@ import { Toaster } from 'react-hot-toast';
 function App() {
   return (
     <div>
-      <ParticleBackground></ParticleBackground>
+      <ParticleBackground/>
       <RouterProvider router={router}></RouterProvider>
       <Toaster />
     </div>
