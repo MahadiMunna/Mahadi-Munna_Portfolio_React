@@ -68,10 +68,10 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div style={{ width: "80vw", left: "50%", transform: "translate(-50%)" }} className="mt-10 grid grid-cols-1 md:grid-cols-3 justify-around justify-items-center gap-5">
+            <div style={{ width: "80vw", left: "50%", transform: "translate(-50%)" }} className="mt-10 grid grid-cols-1 md:grid-cols-3 justify-around justify-items-center gap-10">
 
                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                <motion.div  className='grid justify-center justify-items-center p-6 border border-b-4 border-red-500 shadow-xl shadow-red-200 rounded-xl bg-indigo-100'
+                <motion.div  className='grid justify-center justify-items-center p-6 border border-b-4 border-red-500 shadow-xl shadow-red-200 rounded-xl hover:bg-red-100'
                     whileHover={{
                         scale: 1.1    
                     }}>
@@ -81,7 +81,7 @@ const Contact = () => {
                 </motion.div>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                <motion.div  className='grid justify-center justify-items-center p-6 border border-b-4 border-blue-500 shadow-xl shadow-blue-200 rounded-xl bg-indigo-100' whileHover={{
+                <motion.div  className='grid justify-center justify-items-center p-6 border border-b-4 border-blue-500 shadow-xl shadow-blue-200 rounded-xl hover:bg-blue-100' whileHover={{
                     scale: 1.1
                 }}>
                     <p><BsMessenger style={{ color: "#006AFF" }} className='text-2xl' /></p>
@@ -90,7 +90,7 @@ const Contact = () => {
                 </motion.div>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                <motion.div  className='grid justify-center justify-items-center p-6 border border-b-4 border-green-500 shadow-xl shadow-green-200 rounded-xl bg-indigo-100' whileHover={{
+                <motion.div  className='grid justify-center justify-items-center p-6 border border-b-4 border-green-500 shadow-xl shadow-green-200 rounded-xl hover:bg-green-100' whileHover={{
                     scale: 1.1
                 }}>
                     <p><BsWhatsapp className='text-2xl text-green-600' /></p>

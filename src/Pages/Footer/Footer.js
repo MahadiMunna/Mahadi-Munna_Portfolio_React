@@ -5,7 +5,7 @@ import {FaGithubSquare, FaLinkedin, FaFacebookSquare, FaWhatsappSquare, FaTwitte
 
 const Footer = () => {
     return (
-        <footer style={{ backgroundColor: "#CAD5E2", boxShadow: "rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px" }} className="pb-24 grid justify-center justify-items-center" >
+        <footer style={{ backgroundColor: "#CAD5E2", boxShadow: "rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px" }} className="pb-20 grid justify-center justify-items-center" >
 
             <div className='font-semibold grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 justify-center justify-items-center gap-5 my-6'>
                 <motion.a href="#home" whileHover={{
@@ -28,7 +28,7 @@ const Footer = () => {
                         textShadow: "0px 0px 8px rgb(255,255,255)",
                         color:"#1877F2"
                         }}>Projects</motion.a>
-                <motion.a  href="#service" whileHover={{
+                <motion.a  href="#services" whileHover={{
                         scale: 1.1,
                         textShadow: "0px 0px 8px rgb(255,255,255)",
                         color:"#1877F2"

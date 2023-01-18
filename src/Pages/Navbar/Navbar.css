@@ -21,8 +21,8 @@ nav a{
     font-size: 1.2rem;
 }
 nav a:hover{
-    color: #000;
+    color: rgb(173, 255, 42);
 }
 .active{
-    color: rgb(16, 7, 142);
+    color: rgb(255, 237, 36);
 }

@@ -8,6 +8,7 @@ import { SiReact } from 'react-icons/si';
 import { DiNodejsSmall } from 'react-icons/di';
 import { SiExpress } from 'react-icons/si';
 import { SiMongodb } from 'react-icons/si';
+import { SiFirebase } from 'react-icons/si';
 import { SiVisualstudiocode } from 'react-icons/si';
 import { SiGithub } from 'react-icons/si';
 import { SiGooglechrome } from 'react-icons/si';
@@ -24,6 +25,7 @@ import react from '../../utilities/tech-logo/React-icon.svg.png'
 import node from '../../utilities/tech-logo/Node.js.png'
 import express from '../../utilities/tech-logo/expressjs.png'
 import mongodb from '../../utilities/tech-logo/mongodb.png'
+import firebase from '../../utilities/tech-logo/firebase.png'
 import vscode from '../../utilities/tech-logo/Visual_Studio_Code.png'
 import git from '../../utilities/tech-logo/github.png'
 import chromedev from '../../utilities/tech-logo/chrome.png'
@@ -37,7 +39,7 @@ const Skills = () => {
             <h1 data-aos="fade-up" data-aos-duration="1500"  className="text-4xl text-blue-600 font-bold text-center">Skills</h1>
 
             <div style={{ width: "70vw", left: "50%", transform: "translate(-50%)" }} className="mt-10">
-                <h2 data-aos="fade-up" data-aos-duration="1500" className="text-2xl text-blue-600 font-bold text-center mb-5">Frontend</h2>
+                <h2 data-aos="fade-up" data-aos-duration="1500" className="text-2xl text-blue-800 font-bold text-center mb-5">Frontend Development</h2>
                 <div className='grid lg:grid-cols-6 grid-cols-3 justify-center justify-items-center gap-5'>
 
                     <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100" className='grid justify-center justify-items-center'>
@@ -69,24 +71,28 @@ const Skills = () => {
                 </div>
             </div>
             <div style={{ width: "70vw", left: "50%", transform: "translate(-50%)" }} className="mt-10">
-                <h2 data-aos="fade-up" data-aos-duration="1500" className="text-2xl text-blue-600 font-bold text-center mb-5">Backend</h2>
-                <div className='grid grid-cols-3 justify-around justify-items-center gap-5' >
+                <h2 data-aos="fade-up" data-aos-duration="1500" className="text-2xl text-blue-800 font-bold text-center mb-5">Backend Development</h2>
+                <div className='grid grid-cols-3 lg:grid-cols-4 justify-around justify-items-center gap-5' >
                     <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100" className='grid justify-center justify-items-center'>
                         <img style={{ width: '2rem' }} src={node} alt="" />
                         <span className='text-xs text-indigo-800 font-semibold'>Node JS <DiNodejsSmall style={{display:"inline"}}/></span>
                     </div>
-                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" className='grid justify-center justify-items-center'>
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" className='grid justify-center justify-items-center'>
                         <img style={{ width: "2rem" }} src={express} alt="" />
                         <span className='text-xs text-indigo-800 font-semibold'>Express JS <SiExpress style={{display:"inline"}}/></span>
                     </div>
-                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500" className='grid justify-center justify-items-center'>
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" className='grid justify-center justify-items-center'>
                         <img style={{ width: "2rem" }} src={mongodb} alt="" />
                         <span className='text-xs text-indigo-800 font-semibold'>MongoDB <SiMongodb style={{display:"inline"}}/></span>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" className='grid justify-center justify-items-center'>
+                        <img style={{ width: "1.5rem" }} src={firebase} alt="" />
+                        <span className='text-xs text-indigo-800 font-semibold'>Firebase <SiFirebase style={{display:"inline"}}/></span>
                     </div>
                 </div>
             </div>
             <div style={{ width: "70vw", left: "50%", transform: "translate(-50%)" }} className="mt-10">
-                <h2 data-aos="fade-up" data-aos-duration="1500" className="text-2xl text-blue-600 font-bold text-center mb-5">Tools</h2>
+                <h2 data-aos="fade-up" data-aos-duration="1500" className="text-2xl text-blue-800 font-bold text-center mb-5">Tools</h2>
                 <div className='grid lg:grid-cols-6 grid-cols-3 justify-center justify-items-center gap-5'>
 
                     <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100" className='grid justify-center justify-items-center'>

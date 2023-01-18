@@ -6,6 +6,7 @@ import Footer from '../Pages/Footer/Footer';
 import Banner from '../Pages/Home/Banner';
 import Projects from '../Pages/Projects/Projects';
 import Navbar from '../Pages/Navbar/Navbar';
+import Services from '../Pages/Services/Services';
 
 const Main = () => {
     return (
@@ -14,8 +15,8 @@ const Main = () => {
             <Banner></Banner>
             <About></About>
             <Projects></Projects>
+            <Services></Services>
             <Contact></Contact>
-            <Outlet></Outlet>
             <Footer></Footer>
         </div>
     );
