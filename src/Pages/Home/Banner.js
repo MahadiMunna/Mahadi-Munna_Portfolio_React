@@ -7,7 +7,7 @@ import { FaFileDownload } from 'react-icons/fa';
 import { MdContactMail } from 'react-icons/md';
 import resume from '../../utilities/resume/Resume - Mahadi Hasan Munna.pdf';
 import { motion } from 'framer-motion';
-import {FaGithubSquare, FaLinkedin, FaFacebookSquare, FaWhatsappSquare} from 'react-icons/fa';
+import {FaGithubSquare, FaLinkedin, FaFacebookSquare,FaTwitterSquare, FaWhatsappSquare} from 'react-icons/fa';
 
 const Banner = () => {
     return (
@@ -75,6 +75,10 @@ const Banner = () => {
                         scale: 1.1,
                         boxShadow: "0px 0px 8px rgb(0,0,0,0.4)",
                     }}><FaFacebookSquare/></motion.a>
+                <motion.a style={{color:"#1A8CD8"}} href="https://twitter.com/mahadi_munna_" target='blank' className='text-3xl' whileHover={{
+                        scale: 1.1,
+                        boxShadow: "0px 0px 8px rgb(0,0,0,0.4)",
+                    }}><FaTwitterSquare/></motion.a>
                 <motion.a style={{color:"#1BD741"}} href="https://wa.me/qr/YX3HUHNFWVGLB1" target='blank' className='text-3xl' whileHover={{
                         scale: 1.1,
                         boxShadow: "0px 0px 8px rgb(0,0,0,0.4)",
