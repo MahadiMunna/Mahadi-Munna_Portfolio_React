@@ -5,7 +5,7 @@ import img from '../../utilities/image/banner.jpeg';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import { FaFileDownload } from 'react-icons/fa';
 import { MdContactMail } from 'react-icons/md';
-import resume from '../../utilities/resume/Resume - Mahadi Hasan Munna.pdf';
+import resume from '../../utilities/resume/Resume (Python) - Mahadi Hasan Munna.pdf';
 import { motion } from 'framer-motion';
 import {FaGithubSquare, FaLinkedin, FaFacebookSquare,FaTwitterSquare, FaWhatsappSquare} from 'react-icons/fa';
 
@@ -34,7 +34,7 @@ const Banner = () => {
                 <p className='text-2xl md:text-3xl text-center font-bold text-blue-800'>
                     <Typewriter
                         options={{
-                            strings: ['Fullstack Web Developer', 'MERN Stack Web Developer', 'Frontend Web Developer', 'Backend Web Developer'],
+                            strings: ['Software Engineer', 'Fullstack Developer', 'Python Stack Developer', 'MERN Stack Developer', 'Backend Developer'],
                             autoStart: true,
                             loop: true,
                             cursor: '_',

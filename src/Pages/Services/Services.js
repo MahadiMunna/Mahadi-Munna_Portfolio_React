@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const Services = () => {
     return (
         <div id='services' className='p-10'>
-            <h1 data-aos="fade-up" data-aos-duration="1500" className="text-4xl text-blue-600 font-bold text-center mb-10">Services</h1>
+            <h1 data-aos="fade-up" data-aos-duration="1500" className="text-4xl  text-blue-600 font-bold text-center mb-10 ">Services</h1>
             <h3 data-aos="fade-up" data-aos-duration="1500" className="text-2xl font-bold text-orange-800 text-center mb-10">What I Do</h3>
             <div style={{ width: "80vw", left: "50%", transform: "translate(-50%)" }} className="mt-10 grid grid-cols-1 lg:grid-cols-3 justify-around justify-items-center gap-14">
 
@@ -31,8 +31,8 @@ const Services = () => {
                         whileHover={{
                             scale: 1.1
                         }}>
-                        <h3 className='text-indigo-800 text-2xl text-center font-bold'>MERN stack Web development</h3>
-                        <p className='text-sm font-semibold text-center mt-4'>MERN stack web developer specializes in using the MERN stack, which is a combination of technologies for building web applications. The acronym stands for MongoDB, Express.js, React.js, and Node.js.</p>
+                        <h3 className='text-indigo-800 text-2xl text-center font-bold'>Backend Web development</h3>
+                        <p className='text-sm font-semibold text-center mt-4'>I can develop APIs using django rest framework and using node.js too. I Can make any APIs according to your requirements. I'm strong in python, django and django restframework for backend service</p>
                     </motion.div>
                 </div>
                 

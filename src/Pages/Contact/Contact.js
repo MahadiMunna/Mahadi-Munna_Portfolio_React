@@ -14,11 +14,17 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         const field = e.target;
-        emailjs.sendForm("portfolio_service", "template_4jkxvft", form.current, "-90br3YZbVKmx0k2J")
+        emailjs.sendForm("service_9u9m166", "template_u6kl3qt", form.current, "MI9jh66XD1WqYqsxN")
             .then((result) => {
                 console.log(result);
                 if (result.text === 'OK') {
-                    toast.success('Successfully Send!');
+                    toast.success('Successfully Send!',{
+                        style: {
+                            borderRadius: '10px',
+                            background: '#333',
+                            color: '#fff',
+                          },
+                    });
                     field.reset();
                 }
 
@@ -28,7 +34,7 @@ const Contact = () => {
     };
     return (
         <div id='contact' className='my-20'>
-            <h1 data-aos="fade-up" data-aos-duration="1500" className="text-4xl text-blue-600 font-bold text-center mb-10">Contact Me Now!</h1>
+            <h1 data-aos="fade-up" data-aos-duration="1500" className="text-4xl text-blue-600 font-bold text-center mb-10 ">Contact Me Now!</h1>
             <div className="hero">
                 <div className="hero-content flex-col lg:flex-row">
                     <div data-aos="fade-up" data-aos-duration="1500">
@@ -44,7 +50,7 @@ const Contact = () => {
                             </div>
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text font-semibold">You Email</span>
+                                    <span className="label-text font-semibold">Your Email</span>
                                 </label>
                                 <input type="text" name='email' placeholder="Write your email here" className="input input-bordered" required />
                             </div>

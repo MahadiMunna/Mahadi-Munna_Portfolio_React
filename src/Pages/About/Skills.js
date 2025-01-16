@@ -15,6 +15,9 @@ import { SiGooglechrome } from 'react-icons/si';
 import { SiNetlify } from 'react-icons/si';
 import { SiFigma } from 'react-icons/si';
 import { SiVercel } from 'react-icons/si';
+import { SiPython } from 'react-icons/si';
+import { SiDjango } from 'react-icons/si';
+import { SiDocker } from 'react-icons/si';
 
 import html from '../../utilities/tech-logo/html.png'
 import css from '../../utilities/tech-logo/css3.png'
@@ -32,10 +35,14 @@ import chromedev from '../../utilities/tech-logo/chrome.png'
 import netlify from '../../utilities/tech-logo/netlify.png'
 import figma from '../../utilities/tech-logo/figma.png'
 import vercel from '../../utilities/tech-logo/vercel.png'
+import python from '../../utilities/tech-logo/Python.png'
+import django from '../../utilities/tech-logo/django.png'
+import drf from '../../utilities/tech-logo/drf.png'
+import docker from '../../utilities/tech-logo/docker.png'
 
 const Skills = () => {
     return (
-        <div id='skills' className='my-10 '>
+        <div id='skills' className='my-10 p-10'>
             <h1 data-aos="fade-up" data-aos-duration="1500"  className="text-4xl text-blue-600 font-bold text-center">Skills</h1>
 
             <div style={{ width: "70vw", left: "50%", transform: "translate(-50%)" }} className="mt-10">
@@ -88,6 +95,22 @@ const Skills = () => {
                     <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" className='grid justify-center justify-items-center'>
                         <img style={{ width: "1.5rem" }} src={firebase} alt="" />
                         <span className='text-xs text-indigo-800 font-semibold'>Firebase <SiFirebase style={{display:"inline"}}/></span>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" className='grid justify-center justify-items-center'>
+                        <img style={{ width: "1.5rem" }} src={python} alt="" />
+                        <span className='text-xs text-indigo-800 font-semibold'>Python <SiPython style={{display:"inline"}}/></span>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" className='grid justify-center justify-items-center'>
+                        <img style={{ width: "1.5rem" }} src={django} alt="" />
+                        <span className='text-xs text-indigo-800 font-semibold'>Django <SiDjango style={{display:"inline"}}/></span>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" className='grid justify-center justify-items-center'>
+                        <img style={{ width: "1.5rem" }} src={drf} alt="" />
+                        <span className='text-xs text-indigo-800 font-semibold'>Django Rest Framework <SiDjango style={{display:"inline"}}/></span>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" className='grid justify-center justify-items-center'>
+                        <img style={{ width: "1.5rem" }} src={docker} alt="" />
+                        <span className='text-xs text-indigo-800 font-semibold'>Docker <SiDocker style={{display:"inline"}}/></span>
                     </div>
                 </div>
             </div>

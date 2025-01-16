@@ -20,7 +20,9 @@ function App() {
       <Services></Services>
       <Contact></Contact>
       <Footer></Footer>
-      <Toaster />
+      <Toaster
+        position="top-right"
+        reverseOrder={false}/>
     </div>
   );
 }
