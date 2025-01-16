@@ -64,7 +64,7 @@ const Footer = () => {
                 
             </div>
             <p className='font-bold'>Mahadi Hasan Munna</p>
-            <p style={{ fontSize: "10px" }} className="font-semibold">Copyright © 2023 - All right reserved</p>
+            <p style={{ fontSize: "10px" }} className="font-semibold">Copyright © {new Date().getFullYear()} - All right reserved</p>
         </footer>
     );
 };
